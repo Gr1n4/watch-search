@@ -1,7 +1,9 @@
 "use strict";
 
 import watchReducer from './watch';
+import filterReducer from './filter';
 
 export default {
-  watch: watchReducer
+  watch: watchReducer,
+  filter: filterReducer
 };
